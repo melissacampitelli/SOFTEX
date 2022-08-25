@@ -1,0 +1,38 @@
+//tres funcoes
+
+Function softex(){
+Console.log(“olá”)
+}
+
+function numero(numero) {
+  var resultado = Math.floor(Math.random()*numero);
+  return resultado;
+}
+
+Const frase = Function eu (melissa) {
+Return “eu ${melissa}, treinando Javascript”;
+}
+Const frase = (melissa) => “eu ${melissa}, treinando Javascript”;
+Const frase = (melissa) => “eu ${melissa}, treinando Javascript”;
+
+
+                     
+//CALCULADORA USANDO FUNÇÃO
+
+
+
+function calculadora(){
+
+const valorA = parseInt(prompt ('digite o número A:'))
+const  valorB = parseInt(prompt ('digite o número B:'))
+resultadosoma = parseInt (valorA) + parseInt (valorB)
+resultadosub = parseInt (valorA) - parseInt (valorB)
+resultadomult = parseInt (valorA) * parseInt (valorB)
+resultadodiv = parseInt (valorA) / parseInt (valorB)
+
+alert('soma:'+ resultadosoma)
+alert('subtração:'+ resultadosub)
+alert('multiplicação:'+ resultadomult)
+alert('divisão:'+ resultadodiv) 
+}
+calculadora()
