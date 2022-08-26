@@ -1,0 +1,45 @@
+//BANCO MELISSA AND SOFTEX
+
+console.log("Seja bem vindo(a) ao Banco Melissa and Softex")
+
+function conta(n1){
+  return n1
+}
+let res = conta(0)
+console.log("sua conta é :" + res)
+
+function saldo(n1){
+  return n1
+}
+let s = saldo(1000)
+console.log("seu saldo é :" + s)
+
+function tipo(n1){
+  return n1
+}
+let t = tipo(2)
+console.log("seu tipo de conta é :" + t)
+
+function agencia(n1){
+  return n1
+  }
+let a = agencia(4)
+console.log("sua agência é: " + a )
+
+
+
+var numero = parseInt(prompt("Qual operação você deseja?\nPara realizar um deposíto digite 1\nPara realizar um saque digite 2 "))
+
+
+
+if (numero == 1){
+ var deposito = parseInt(prompt("digite o valor do depósito"))
+var resto = (deposito + 1000)
+console.log("o total da sua conta é :" + resto)
+}
+
+if (numero == 2){
+ var saque = parseInt(prompt("digite o valor do saque"))
+var resul = (saque - 1000)
+console.log("o total da sua conta é :" + resul)
+}
