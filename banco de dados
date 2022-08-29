@@ -1,0 +1,10 @@
+const Sequelize = require (´sequelize´)
+const sequelize = new Sequeliza (´softex´,´melissa´,´000´),{dialect: ´mysql´, host: ´localhost´});
+
+modulo exports = sequelize
+
+sequelize.authenticate().then(() => {
+    console.log('CONECTADO!')
+}).catch((error) => {
+    console.log(`NÃO CONECTADO: ${error}`)
+})
