@@ -1,0 +1,15 @@
+const espera = [2, 5, 9]
+for(const elementos of espera){
+    console.log(elementos)
+}
+
+let consulta = {
+nome : "melissa"
+idade : "20"
+cpf : "0000"
+}
+
+for(const propriedade in melissa) {
+console.log(´${propriedade}: ${melissa[propriedade]}´);
+}
+
