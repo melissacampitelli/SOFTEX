@@ -1,0 +1,9 @@
+class HeloMessage extends React.Component{
+render() {
+return (
+<div>
+olá softex
+<div/>
+);
+}
+}
