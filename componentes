@@ -1,4 +1,4 @@
-function HeloMessage(){
+function HeloMessage(props){
 return(
 <div>
 <h1> meu componente </h1>
