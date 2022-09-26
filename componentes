@@ -1,0 +1,8 @@
+function HeloMessage(){
+return(
+<div>
+<h1> meu componente </h1>
+</div>
+)
+}
+export default HeloMessage
