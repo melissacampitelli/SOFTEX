@@ -2,6 +2,7 @@ function HeloMessage(props){
 return(
 <div>
 <h1> meu componente </h1>
+<h2> criando props </h2>
 </div>
 )
 }
