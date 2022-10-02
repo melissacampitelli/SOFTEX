@@ -1,1 +1,9 @@
-.
+const Page1 = () => {
+return (
+<div>
+<h1> rotação de telas </h1>
+</div>
+);
+}
+export default Page1;
+
