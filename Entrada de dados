@@ -1,0 +1,11 @@
+var nome = prompt("digite seu nome completo")
+
+var idade = parseInt(prompt("digite seu ano de nascimento"))
+
+if(idade >= 1922 && idade <= 2022){
+  console.log("erro digite ano entre 1922 e 2022")
+
+}
+var resultado = (idade - 2022)
+
+alert("nome completo e idade:  " + nome    + resultado)
