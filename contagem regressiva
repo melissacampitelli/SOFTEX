@@ -1,0 +1,14 @@
+//contagem regressiva
+console.log("inciando contagem regressiva")
+cont = 10
+
+while (cont > 0){
+  alert (''+ cont)
+
+  // contador
+  //cont = cont +1 = cont++ ou cont-- pra decrescente
+  cont--
+
+}
+
+console.log("BUM")
