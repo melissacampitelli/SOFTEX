@@ -1,0 +1,13 @@
+app.get(´/projects´,(request,response) =>{
+return response.json([
+"projeto 1",
+"projeto 2",
+])
+});
+
+app.put(´/projects´,(request, response) =>{
+return response.json([
+"projeto 1",
+"projeto 2",
+])
+});
